@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="abstract_shapes">
+        <item>@drawable/abstract0</item>
+        <item>@drawable/abstract1</item>
+        <item>@drawable/abstract2</item>
+        <item>@drawable/abstract3</item>
+        <item>@drawable/abstract4</item>
+        <item>@drawable/abstract5</item>
+        <item>@drawable/abstract6</item>
+        <item>@drawable/abstract7</item>
+        <item>@drawable/abstract8</item>
+        <item>@drawable/abstract9</item>
+    </string-array>
+
+    <string-array name="abstract_shapes_glow">
+        <item>@drawable/abstract0glow</item>
+        <item>@drawable/abstract1glow</item>
+        <item>@drawable/abstract2glow</item>
+        <item>@drawable/abstract3glow</item>
+        <item>@drawable/abstract4glow</item>
+        <item>@drawable/abstract5glow</item>
+        <item>@drawable/abstract6glow</item>
+        <item>@drawable/abstract7glow</item>
+        <item>@drawable/abstract8glow</item>
+        <item>@drawable/abstract9glow</item>
+
+    </string-array>
+
+    <string-array name="submarines">
+        <item>@drawable/sub0circle</item>
+        <item>@drawable/sub0cross</item>
+        <item>@drawable/sub0square</item>
+        <item>@drawable/sub0star</item>
+        <item>@drawable/sub0triangle</item>
+    </string-array>
+
+    <string-array name="humans">
+        <item>@drawable/human0</item>
+        <item>@drawable/human1</item>
+        <item>@drawable/human2</item>
+        <item>@drawable/human3</item>
+        <item>@drawable/human4</item>
+        <item>@drawable/human5</item>
+        <item>@drawable/human6</item>
+    </string-array>
+
+    <string-array name="evacuation">
+        <item>@drawable/mic</item>
+        <item>@drawable/bell</item>
+        <item>@drawable/waterpump</item>
+        <item>@drawable/waterpump_on</item>
+        <item>@drawable/wheel</item>
+    </string-array>
+
+    <string-array name="gestures">
+        <item>@drawable/drag</item>
+        <item>@drawable/blow</item>
+        <item>@drawable/tilt</item>
+        <item>@drawable/tap</item>
+        <item>@drawable/spin</item>
+        <item>@drawable/handdragrelease</item>
+    </string-array>
+</resources>

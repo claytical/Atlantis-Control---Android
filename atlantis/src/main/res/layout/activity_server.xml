@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:weightSum="1"
+    tools:context="com.dataplayed.nerdlabcontroller.app.ServerActivity"
+    android:baselineAligned="true"
+    style="@style/AppTheme"
+    android:background="#ff8bf3ff">
+
+
+    <EditText
+                    android:id="@+id/player_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:hint="Name"
+                    android:textColorHint="#333"
+                    android:textColor="#000"
+                    android:inputType="textPersonName"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:id="@+id/spinner"
+        android:textColorHint="#dddddd"
+        android:textColor="#ffffff"
+        android:spinnerMode="dropdown"
+        android:layout_height="wrap_content"
+        android:theme="@style/MooTheme"
+        android:layout_marginTop="@dimen/activity_vertical_margin" />
+
+    <EditText
+                    android:id="@+id/server"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="IP Address or Server Name"
+                    android:imeActionId="@+id/play"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="phone"
+                    android:maxLines="1"
+                    android:textColorHint="#333"
+                    android:textColor="#000"
+                    android:singleLine="true"
+        android:layout_marginTop="@dimen/activity_vertical_margin" />
+
+
+    <Button
+        android:id="@+id/play_button"
+        android:layout_width="match_parent"
+        style="?android:textAppearanceLarge"
+        android:layout_height="40dp"
+        android:text="@string/play"
+        android:background="#ff0081ff"
+        android:textColor="#ffffff"
+        android:onClick="playButtonOnClick"
+        android:layout_marginTop="@dimen/activity_vertical_margin" />
+
+</LinearLayout>
+
+
+

@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:keepScreenOn="true"
+    tools:context="com.dataplayed.nerdlabcontroller.app.util.MainActivity"
+    android:weightSum="1"
+    android:background="#ff000000">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/playerNameView"
+        android:background="#ff000000"
+        android:autoText="false"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text=""
+        android:id="@+id/scoreView"
+        android:background="#ff000000"
+        android:autoText="false"
+        android:textColor="#ffffff" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gestureImage"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/tap"
+        android:visibility="invisible"/>
+
+    <com.dataplayed.nerdlabcontroller.app.util.PlaySurfaceView
+        android:id="@+id/surface"
+        android:layout_width="match_parent"
+        android:layout_height="274dp"
+        android:layout_gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:background="#ff000000"
+        android:autoText="false"
+        android:textColor="#ffffff"
+        android:text="Waiting for Connection"
+        android:id="@+id/instructionTextView"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/quit_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Quit"
+        android:textStyle="bold"
+        android:background="#ff0081ff"
+        android:textColor="#ffffffff"
+        android:onClick="quitButtonOnClick" />
+
+
+</LinearLayout>
